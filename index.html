@@ -64,15 +64,35 @@
       color: #fff;
       text-decoration: underline;
     }
+
+    .donate-btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.6);
+      border: 2px solid #fff;
+      border-radius: 30px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .donate-btn:hover {
+      background: #fff;
+      color: #000;
+    }
   </style>
 </head>
 <body>
 
   <!-- Backgrounds -->
   <div id="bg1" class="background active" 
-       style="background-image: url('1.webp');"></div>
+       style="background-image: url('https://your-image-1.jpg');"></div>
   <div id="bg2" class="background" 
-       style="background-image: url('2.webp');"></div>
+       style="background-image: url('https://your-image-2.jpg');"></div>
 
   <!-- Content -->
   <div class="content">
@@ -80,9 +100,14 @@
     <p>A warm and welcoming place of tefillah, Torah, and community for all.</p>
 
     <div class="contact">
-      <p><strong>Email:</strong> <a href="mailto:info@pupakeller.org">info@pupashul.org</a></p>
+      <p><strong>Email:</strong> <a href="mailto:info@pupashul.org">info@pupashul.org</a></p>
       <p><strong>P.O. Box:</strong> P.O. Box 123, Monsey, NY 10952</p>
     </div>
+
+    <!-- Donate Button -->
+    <a href="https://secure.merchpay.com/pupamonsey/shamash/" target="_blank" class="donate-btn">
+      Donate
+    </a>
   </div>
 
   <!-- Background Switcher -->
